@@ -36,7 +36,7 @@ public class ListServlet extends HttpServlet {
 			// Call the add method in list operations and store the return list in list variable
 			System.out.println("calling add equals method");
 			
-		
+	
 			request.setAttribute("bucketList", /*pass the list variable */);
 			request.setAttribute("message", "user added successfully");
 			RequestDispatcher rd=this.getServletContext().getRequestDispatcher("/WEB-INF/views/list.jsp");
